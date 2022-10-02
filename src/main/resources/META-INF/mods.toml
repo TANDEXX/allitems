@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="open source"
+[[mods]]
+modId="allitems"
+version="1.1"
+displayName="All Items and water powder"
+logoFile="obsidian_cookie.png"
+credits="thanks for some people on reddit (r/minecrafthmmm or r/phoenixsc) for this stupid idea"
+authors="TANDEX"
+description='''
+now you have all item types of all materials, it has 11187 items,
+what's most cursed???
+'''
+[[dependencies.allitems]]
+modId="forge"
+mandatory=true
+versionRange="[40,)"
+ordering="NONE"
+side="BOTH"
+# Here's another dependency
+[[dependencies.allitems]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,1.19)"
+ordering="NONE"
+side="BOTH"

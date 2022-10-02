@@ -1,0 +1,10 @@
+#!/bin/nano
+[package]
+name = "gen_script"
+edition = "2018"
+version = "0.1.0"
+authors = ["TANDEX"]
+description = "script for generating all items / blocks for this mod, by default when you download it you won't have it generated so please generate it"
+
+[dependencies]
+png = "0.14.0"
